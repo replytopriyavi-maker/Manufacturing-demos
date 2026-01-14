@@ -123,7 +123,7 @@ class ProcessedData(BaseModel):
 def generate_plant_data(num_records: int = 100) -> List[Dict[str, Any]]:
     """Generate simulated manufacturing plant data"""
     plants = ["Plant_ATL", "Plant_NYC", "Plant_CHI", "Plant_LA", "Plant_MIA"]
-    products = ["Coca-Cola", "Diet Coke", "Sprite", "Fanta", "Dasani"]
+    products = ["Product_A", "Product_B", "Product_C", "Product_D", "Product_E"]
     
     data = []
     base_time = datetime.now(timezone.utc) - timedelta(days=7)
