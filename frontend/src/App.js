@@ -28,7 +28,7 @@ const Sidebar = () => {
     <div className="w-64 bg-[#151923] border-r border-[#2D3748] h-screen fixed left-0 top-0 flex flex-col">
       <div className="p-6 border-b border-[#2D3748]">
         <h1 className="text-xl font-bold text-white" style={{fontFamily: 'Manrope, sans-serif', letterSpacing: '-0.02em'}}>Data Pipeline Platform</h1>
-        <p className="text-xs text-slate-400 mt-1 uppercase tracking-wide" style={{fontFamily: 'Manrope, sans-serif', letterSpacing: '0.05em'}}>Coca-Cola Engineering</p>
+        <p className="text-xs text-slate-400 mt-1 uppercase tracking-wide" style={{fontFamily: 'Manrope, sans-serif', letterSpacing: '0.05em'}}>Manufacturing Engineering</p>
       </div>
       
       <nav className="flex-1 p-4">
