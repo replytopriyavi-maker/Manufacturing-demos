@@ -1,0 +1,161 @@
+{
+  "project_name": "Coca-Cola Data Engineering Platform",
+  "design_philosophy": {
+    "persona": "E1 - The Anti-AI Designer",
+    "core_concept": "The Control Room",
+    "vibe": "High-Precision, Industrial, Technical, Trustworthy",
+    "description": "A dense, information-rich interface that mimics the reliability of industrial control systems. It prioritizes data density and clarity over decorative whitespace. The aesthetic is 'Dark Mode IDE' meets 'Factory HMI'.",
+    "emotional_archetype": "ARCHETYPE 4: SWISS & HIGH-CONTRAST (Authority, Clarity, Truth)"
+  },
+  "typography": {
+    "primary_font": {
+      "name": "Manrope",
+      "usage": "UI Elements, Headings, Body Text",
+      "weights": ["400", "500", "600", "700"],
+      "fallback": "sans-serif"
+    },
+    "code_font": {
+      "name": "JetBrains Mono",
+      "usage": "Code Editors, Logs, Data Tables, IDs, Timestamps",
+      "weights": ["400", "500"],
+      "fallback": "monospace"
+    },
+    "rules": [
+      "Headings (h1-h3) must use tight tracking (-0.02em).",
+      "All data values (numbers, IDs, dates) must use JetBrains Mono.",
+      "Labels and metadata should be uppercase, small (text-xs), and wide tracking (0.05em)."
+    ]
+  },
+  "colors": {
+    "theme": "dark",
+    "palette": {
+      "background": {
+        "default": "#0B0E14",
+        "paper": "#151923",
+        "subtle": "#1E2330"
+      },
+      "primary": {
+        "main": "#3B82F6",
+        "hover": "#2563EB",
+        "foreground": "#FFFFFF"
+      },
+      "secondary": {
+        "main": "#64748B",
+        "foreground": "#F8FAFC"
+      },
+      "accent": {
+        "teal": "#14B8A6",
+        "cyan": "#06B6D4"
+      },
+      "status": {
+        "success": "#10B981",
+        "warning": "#F59E0B",
+        "error": "#EF4444",
+        "info": "#3B82F6"
+      },
+      "border": {
+        "default": "#2D3748",
+        "active": "#4B5563"
+      }
+    },
+    "gradients": {
+      "subtle_glow": "radial-gradient(circle at center, rgba(59, 130, 246, 0.15) 0%, rgba(11, 14, 20, 0) 70%)"
+    }
+  },
+  "layout": {
+    "grid_system": "Bento Grid Mode B (Control Room)",
+    "spacing": {
+      "container_padding": "p-6 md:p-8",
+      "gap": "gap-4 md:gap-6",
+      "internal_padding": "p-4"
+    },
+    "containers": {
+      "card_style": "bg-[#151923] border border-[#2D3748] rounded-sm shadow-sm",
+      "dashboard_grid": "grid grid-cols-1 md:grid-cols-4 gap-4",
+      "sidebar_width": "w-64"
+    }
+  },
+  "components": {
+    "buttons": {
+      "style": "sharp-edges or minimal radius (rounded-sm)",
+      "variants": [
+        "primary: bg-blue-600 hover:bg-blue-700 text-white font-medium shadow-[0_1px_2px_rgba(0,0,0,0.2)]",
+        "secondary: bg-[#1E2330] hover:bg-[#2D3748] text-slate-200 border border-[#2D3748]",
+        "ghost: hover:bg-[#1E2330] text-slate-400 hover:text-white"
+      ]
+    },
+    "cards": {
+      "base": "bg-card text-card-foreground border border-border rounded-sm",
+      "header": "border-b border-border p-4 bg-[#1E2330]/50",
+      "content": "p-4"
+    },
+    "inputs": {
+      "style": "bg-[#0B0E14] border-border focus:border-blue-500 focus:ring-1 focus:ring-blue-500 rounded-sm font-mono text-sm"
+    },
+    "status_badges": {
+      "style": "inline-flex items-center px-2 py-0.5 rounded text-xs font-medium font-mono uppercase tracking-wide",
+      "variants": {
+        "success": "bg-emerald-500/10 text-emerald-400 border border-emerald-500/20",
+        "error": "bg-red-500/10 text-red-400 border border-red-500/20",
+        "warning": "bg-amber-500/10 text-amber-400 border border-amber-500/20",
+        "running": "bg-blue-500/10 text-blue-400 border border-blue-500/20 animate-pulse"
+      }
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-md bg-[#0B0E14]/80 border-b border-border/50 (Use for sticky headers)",
+    "borders": "1px solid #2D3748 (Slate-800)",
+    "shadows": "shadow-lg shadow-black/40 (for dropdowns/modals only)",
+    "textures": "Subtle noise overlay on the main background to reduce digital flatness (optional)"
+  },
+  "motion": {
+    "transitions": "transition-all duration-200 ease-out",
+    "hover_effects": "translate-y-[-1px] brightness-110",
+    "loading": "Use skeleton loaders with a shimmering effect (slate-800 to slate-700)"
+  },
+  "libraries": {
+    "charts": "recharts (ResponsiveContainer, AreaChart, BarChart, LineChart)",
+    "flow_diagrams": "reactflow (For Pipeline Builder and Lineage)",
+    "icons": "lucide-react (Technical, sharp icons)",
+    "code_editor": "@monaco-editor/react (For SQL Interface and Transformation Logic)",
+    "tables": "@tanstack/react-table (Headless) + Custom UI",
+    "dates": "date-fns"
+  },
+  "pages_structure": {
+    "dashboard": {
+      "layout": "Bento Grid",
+      "widgets": [
+        "Pipeline Health Summary (KPIs)",
+        "Active Pipeline Runs (Table)",
+        "Data Quality Score Trends (Area Chart)",
+        "Recent Alerts (List)"
+      ]
+    },
+    "pipeline_builder": {
+      "layout": "Full Screen Canvas",
+      "features": ["Drag-and-drop nodes", "Properties Panel (Right Sidebar)", "Component Toolbar (Left Sidebar)"]
+    },
+    "data_quality": {
+      "layout": "Split View",
+      "sections": ["Validation Rules List", "Quality Impact Analysis (Graph)", "Bad Data Sample (Table)"]
+    }
+  },
+  "image_guidelines": {
+    "strategy": "Use abstract technical imagery for login/landing only. The app itself should be data-driven.",
+    "search_terms": [
+      "abstract blue data flow",
+      "server room dark aesthetic",
+      "industrial automation control panel",
+      "digital map connection"
+    ],
+    "usage": "Login background (with heavy dark overlay), Empty states"
+  },
+  "universal_guidelines": [
+    "DO NOT use gradients for backgrounds. Use solid dark colors.",
+    "DO NOT use 'Inter' font. Use 'Manrope'.",
+    "Ensure all interactive elements have `data-testid`.",
+    "Use 'sonner' for toast notifications.",
+    "Always use 'JetBrains Mono' for displaying data, logs, and code.",
+    "Maintain a 'dense' layout. Avoid excessive whitespace in data tables."
+  ]
+}
