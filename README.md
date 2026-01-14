@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-A comprehensive **Data Engineering Portfolio Project** designed to showcase skills required for the Coca-Cola Data Engineering Internship. This platform demonstrates expertise in data pipeline development, ETL processes, data quality management, and analytics - all critical components mentioned in the internship requirements.
+A comprehensive **Data Engineering Portfolio Project** demonstrating expertise in data pipeline development, ETL processes, data quality management, and analytics. This platform showcases skills essential for data engineering roles in manufacturing and supply chain industries.
 
 ### 🎯 Purpose
 
@@ -165,7 +165,7 @@ The platform generates realistic manufacturing plant data including:
 
 ### Data Points
 - **Plant Locations**: Atlanta, NYC, Chicago, LA, Miami
-- **Products**: Coca-Cola, Diet Coke, Sprite, Fanta, Dasani
+- **Products**: Product A, B, C, D, E (generic beverage products)
 - **Metrics**:
   - Production volume (5,000-15,000 units)
   - Quality scores (85-100%)
@@ -181,7 +181,7 @@ The platform generates realistic manufacturing plant data including:
 
 ## 🎓 Skills Demonstrated
 
-### As Per Coca-Cola Internship Requirements:
+### For Data Engineering Roles:
 
 ✅ **Data Pipeline Development**
 - Built complete ETL pipeline system
@@ -364,12 +364,17 @@ Potential additions to showcase more skills:
 - CI/CD pipeline setup
 - Advanced security features (OAuth, RBAC)
 
-## 📧 Contact
+## 📧 Use Cases
 
-This project is part of a portfolio for the Coca-Cola Data Engineering Internship application.
+This platform is ideal for demonstrating data engineering capabilities for:
+- Manufacturing and production environments
+- Supply chain data management
+- Quality control and monitoring systems
+- IoT sensor data processing
+- Real-time operational analytics
 
 **Key Technologies**: Python | FastAPI | React | MongoDB | Pandas | Data Pipelines | ETL | Data Quality
 
 ---
 
-**Built with** ❤️ **for Coca-Cola Data Engineering Internship**
+**Built for Data Engineering Portfolio**
