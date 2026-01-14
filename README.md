@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-A comprehensive **Data Engineering Portfolio Project** demonstrating expertise in data pipeline development, ETL processes, data quality management, and analytics. This platform showcases skills essential for data engineering roles in manufacturing and supply chain industries.
+A comprehensive **Data Engineering Project** demonstrating data pipeline development, ETL processes, data quality management, and analytics.
 
 ### 🎯 Purpose
 
